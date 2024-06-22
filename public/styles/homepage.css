@@ -1,0 +1,161 @@
+body, html {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(86, 13, 114), white);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: red;
+}
+
+#info_container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+}
+
+#list_container {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+
+#extra_container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+#info_startup_name {
+    flex:2;
+    display: flex;
+    height: 90%;
+    background-color:  yellow;
+}
+
+.info_button_container {
+    flex: 1;
+    display: flex;
+    height: 90%;
+    background-color:  purple;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info_inner_button_container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background-color:  orange;
+
+}
+.options {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.micro_cards {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.micro_cards_inner {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#micro_cards_list {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.back_button{
+    flex:1;
+    font-weight: bold;
+    width: 25%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back_button_inner{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.options_space{
+    flex:5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.balance_option_inner{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.balance_option{
+    flex:1;
+    height: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+.balance_option_1{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance_option_2{
+    flex:1;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}

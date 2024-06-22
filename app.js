@@ -1,13 +1,12 @@
-var http = require('http');
-var fs = require('fs');
+const express = require("express")
+const app = express()
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  fs.readFile('index.html', function(err, data) {
-    if (err) {
-      res.end('Errore nella lettura del file');
-    } else {
-      res.end(data);
-    }
-  });
-}).listen(8000);
+app.set("view engine", "ejs")
+app.use(express.static(__dirname + '/public'));
+
+app.get("/", (req,res) => {
+    console.log("ciaos")
+    res.render("index")
+})
+
+app.listen(3000)
