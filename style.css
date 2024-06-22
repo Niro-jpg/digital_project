@@ -1,0 +1,12 @@
+/* Stili per le liste */
+ul {
+    background-color: blue;
+}
+
+ol {
+    background-color: red;
+}
+
+body {
+    background-color: green;
+}
