@@ -9,4 +9,8 @@ app.get("/", (req,res) => {
     res.render("index")
 })
 
+app.get("/advises", (req,res) => {
+    res.render("advises")
+});
+
 app.listen(3000)

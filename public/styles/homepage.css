@@ -114,7 +114,7 @@ body, html {
     height: 80%;
     width:  100%;
     background-color:  cornflowerblue;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex:4
 }
@@ -123,107 +123,6 @@ body, html {
     height: 80%;
     width:  100%;
     background-color:  cornflowerblue;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     flex:6
-}
-
-.options {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.micro_cards {
-    flex: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.micro_cards_inner {
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-#micro_cards_list {
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.back_button{
-    flex:1;
-    font-weight: bold;
-    width: 25%;
-    height: 40%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.back_button_inner{
-    width: 40%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    background-color: aliceblue;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
-
-.options_space{
-    flex:5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: xx-large;
-}
-
-.balance_option_inner{
-    height: 90%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-
-.balance_option{
-    flex:1;
-    height: 60%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    
-}
-
-.balance_option_1{
-    flex:2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.balance_option_2{
-    flex:1;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
 }
