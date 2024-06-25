@@ -1,5 +1,5 @@
 function send_advise() {
-    var input = document.getElementById("advise_input");
+    var input = document.getElementById("advise_input_text");
 
     var params = {
         name: "marameo",
@@ -20,4 +20,12 @@ function send_advise() {
 
 function go_to_homepage() {
     window.location.href = "/";
+}
+
+function go_to_faq() {
+    window.location.href = "/faq";
+}
+
+function go_to_info() {
+    window.location.href = "/info";
 }

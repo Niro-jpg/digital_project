@@ -23,20 +23,23 @@ body, html {
 #main_container {
     flex: 5;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-#list_container {
-    flex: 5;
-    display: flex;
     flex-direction: row;
     width: 65%;
     background-color: white;
     justify-content: center;
     align-items: center;
+}
+
+#inner_main_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin:60px;
+    text-align: center;
 }
 
 #extra_container {
@@ -83,66 +86,4 @@ body, html {
 .info_inner_button_container:hover{
     transform: translateY(-5px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-#name_list_element_container {
-    flex: 1;
-    display: flex;
-    height: 90%;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    border-bottom: solid;
-}
-
-.list_element_container {
-    flex: 1;
-    display: flex;
-    height: 90%;
-    justify-content: center;
-    align-items: center;
-}
-
-.inner_list_element_container {
-    display: flex;
-    height: 85%;
-    width:  70%;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    flex-direction: column;
-}
-
-.inner_list_element_container:hover{
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.name_list_container{
-    display: flex;
-    height: 80%;
-    width:  100%;
-    background-color:  cornflowerblue;
-    justify-content: center;
-    align-items: center;
-    flex:1
-}
-.contacts_list_container{
-    display: flex;
-    height: 80%;
-    width:  100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex:4
-}
-.exams_list_container{
-    display: flex;
-    height: 80%;
-    width:  100%;
-    justify-content: top;
-    align-items: center;
-    flex-direction: column;
-    flex:6
 }

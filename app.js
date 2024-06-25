@@ -13,4 +13,12 @@ app.get("/advises", (req,res) => {
     res.render("advises")
 });
 
+app.get("/faq", (req,res) => {
+    res.render("faq")
+});
+
+app.get("/info", (req,res) => {
+    res.render("info")
+});
+
 app.listen(3000)

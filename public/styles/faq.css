@@ -20,14 +20,75 @@ body, html {
     background-color: plum;
 }
 
-#advise_container {
+#main_container {
     flex: 5;
     display: flex;
     flex-direction: row;
-    width: 65%;
+    width: 100%;
     background-color: white;
     justify-content: center;
     align-items: center;
+}
+
+#inner_main_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#faq_text{
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    flex: 1;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    font-size: 28px;
+}
+
+#faq_list{
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: top;
+    align-items: top;
+    margin:30px;
+}
+
+.faq_list_element{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: top;
+    font-size: 24px;
+}
+
+.faq_list_question{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.faq_list_answer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
 }
 
 #inner_advise_container {
@@ -49,61 +110,6 @@ body, html {
     align-items: top;
     font-size: 24px;
     margin:20px;
-    box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.5);
-}
-
-#advise_input_container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    height: 90%;
-    background-color: white;
-    justify-content: center;
-    align-items: left;
-    font-size: 22px;
-}
-
-#advise_input_text {
-    width: 90%;
-    height: 50%;
-    word-wrap: break-word;
-    vertical-align: top;
-    resize: none;
-}
-
-#advise_input_mail {
-    width: 90%;
-    height: 7%;
-}
-
-#advise_button {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    justify-content: right;
-    align-items: center;
-}
-#inner_advise_button {
-    display: flex;
-    flex-direction: row;
-    width: 20%;
-    height: 50%;
-    background-color: black;
-    justify-content: center;
-    color: white;
-    align-items: center;
-    margin:10px;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border-radius: 20px;
-    font-size: 18px;
-
-}
-
-#inner_advise_button:hover{
-    transform: translateY(-2px); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 

@@ -21,18 +21,13 @@
             MOBLANDO
         </div>
         <div class="info_button_container">
-            <div class="info_inner_button_container">
+            <div onclick="go_to_info()" class="info_inner_button_container">
                 who are we?
             </div>
         </div>
         <div class="info_button_container">
-            <div class="info_inner_button_container">
+            <div onclick="go_to_faq()" class="info_inner_button_container">
                 FAQ
-            </div>
-        </div>
-        <div class="info_button_container">
-            <div class="info_inner_button_container">
-                Options
             </div>
         </div>
         <div class="info_button_container">
@@ -48,13 +43,16 @@
                 Send us some advise to improve your experience or some exams you need to study!
             </div>
             <div id="advise_input_container">
-                <input type="text" id="advise_input">
-            </div>
+                Mail:
+                <input type="text" id="advise_input_mail">
+                Message:
+                <textarea id="advise_input_text"></textarea>
             <div id="advise_button">
                 <div id="inner_advise_button" onclick="send_advise()">
                     SEND
                 </div>
             </div>
+        </div>
 
         </div>
     </div>
