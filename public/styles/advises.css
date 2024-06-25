@@ -17,8 +17,7 @@ body, html {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: black;
-    background: linear-gradient(to right, white, blue);
+    background-color: plum;
 }
 
 #advise_container {
@@ -81,12 +80,14 @@ body, html {
     flex-direction: row;
     width: 20%;
     height: 80%;
-    background-color: blue;
+    background-color: black;
     justify-content: center;
+    color: white;
     align-items: center;
     margin:10px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 20px;
 
 }
 
@@ -110,6 +111,7 @@ body, html {
     height: 90%;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
 }
 
 .info_button_container {
@@ -132,6 +134,7 @@ body, html {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 10px;
 
 }
 

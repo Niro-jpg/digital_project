@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Niro-jpg/digital_project#readme",
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "ejs": "^3.1.10",
+    "emailjs": "^4.0.3",
     "express": "^4.19.2",
     "nodemon": "^3.1.4"
   }

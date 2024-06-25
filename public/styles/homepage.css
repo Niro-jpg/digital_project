@@ -17,8 +17,7 @@ body, html {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: black;
-    background: linear-gradient(to right, white, blue);
+    background-color: plum;
 }
 
 #list_container {
@@ -45,6 +44,7 @@ body, html {
     height: 90%;
     justify-content: center;
     align-items: center;
+    font-size: 60px;
 }
 
 .info_button_container {
@@ -67,12 +67,22 @@ body, html {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 10px;
 
 }
 
 .info_inner_button_container:hover{
     transform: translateY(-5px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.name_list_element_container {
+    flex: 1;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
 
 .list_element_container {
@@ -82,11 +92,11 @@ body, html {
     justify-content: center;
     align-items: center;
 }
+
 .inner_list_element_container {
     display: flex;
     height: 85%;
     width:  70%;
-    background-color:  green;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -103,8 +113,7 @@ body, html {
     display: flex;
     height: 80%;
     width:  100%;
-    background-color:  blue;
-    background: linear-gradient(to right, white, blue);
+    background-color:  cornflowerblue;
     justify-content: center;
     align-items: center;
     flex:1
@@ -113,16 +122,17 @@ body, html {
     display: flex;
     height: 80%;
     width:  100%;
-    background-color:  cornflowerblue;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     flex:4
 }
 .exams_list_container{
     display: flex;
     height: 80%;
     width:  100%;
-    background-color:  cornflowerblue;
-    justify-content: left;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
     flex:6
 }

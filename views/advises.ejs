@@ -4,6 +4,15 @@
   <title>Liste HTML</title>
   <link rel="stylesheet" type="text/css" href="/styles/advises.css">
   <script src="./javascript/advises.js"></script>
+  <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("bN8kvgKDK8aVbDoYX");
+    })();
+  </script>
     
 </head>
 <div id="container">
@@ -27,8 +36,8 @@
             </div>
         </div>
         <div class="info_button_container">
-            <div onclick="go_to_advises()" class="info_inner_button_container">
-                Advises
+            <div onclick="go_to_homepage()" class="info_inner_button_container">
+                Homepage
             </div>
         </div>
 
