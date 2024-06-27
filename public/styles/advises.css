@@ -17,7 +17,7 @@ body, html {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: plum;
+    background-color: rgb(58, 114, 255);
 }
 
 #advise_container {
@@ -121,7 +121,8 @@ body, html {
     height: 90%;
     justify-content: center;
     align-items: center;
-    font-size: 60px;
+    font-size: 80px;
+    font-family:'Oswald'
 }
 
 .info_button_container {
@@ -141,6 +142,7 @@ body, html {
     color: white;
     justify-content: center;
     align-items: center;
+    text-align: centr;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
