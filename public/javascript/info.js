@@ -10,4 +10,7 @@ function go_to_faq() {
     window.location.href = "/faq";
 }
 
+function go_to_info() {
+    window.location.href = "/info";
+}
 

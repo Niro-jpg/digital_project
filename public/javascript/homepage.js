@@ -9,3 +9,7 @@ function go_to_faq() {
 function go_to_info() {
     window.location.href = "/info";
 }
+
+function go_to_homepage() {
+    window.location.href = "/";
+}
